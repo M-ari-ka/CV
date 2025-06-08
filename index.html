@@ -3,15 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My profile</title>
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-container {
+            border: 5px solid rgb(80, 204, 179);
+            border-radius: 15px;
+            text-align: center;
+            width: 350px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: rgb(80, 204, 179);
+        }
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1><strong>Thông tin cá nhân</strong></h1>
-    <p><strong>Họ và tên:</strong> Trần Yến Như</p>
-    <p><strong>Tuổi:</strong> 14</p>
-    <p><strong>Lớp học:</strong>S2P31.2506A2</p>
-    <p><strong>Sở thích:</strong> Chơi game</p>
-    <p><strong>Hình ảnh:</strong></p>
-    <img src="cat.png" alt="Ảnh cá nhân"; style="width: 200px; height: 200px;">
+    <div class="profile-container">
+        <h1><strong>Thông tin cá nhân</strong></h1>
+        <p><strong>Họ và tên:</strong> Trần Yến Như</p>
+        <p><strong>Tuổi:</strong> 14</p>
+        <p><strong>Lớp học:</strong> S2P31.2506A2</p>
+        <p><strong>Sở thích:</strong> Chơi game</p>
+        <p><strong>Hình ảnh:</strong></p>
+        <img src="img/cat.png" alt="Ảnh cá nhân">
+    </div>
 </body>
 </html>
